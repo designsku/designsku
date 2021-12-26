@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv='content-language' content='en-us'>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Architectural Design Patterns In Java, Software Architecture SOLID Design Patterns in Java. Controller links the view to the model and directs application flow.">
+
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+
+    
+<title>77 Popular Architectural design patterns in java Trend in 2021 | Creative Design Ideas</title>
+<meta name="url" content="https://designsku.github.io/architectural-design-patterns-in-java/" />
+<meta property="og:url" content="https://designsku.github.io/architectural-design-patterns-in-java/">
+<meta property="article:author" content="Paul"> 
+<meta name="author" content="Paul">
+<meta name="geo.region" content="US">
+<meta name="geo.region" content="GB">
+<meta name="geo.region" content="CA">
+<meta name="geo.region" content="AU">
+<meta name="geo.region" content="IT">
+<meta name="geo.region" content="NL">
+<meta name="geo.region" content="DE">
+<link rel="canonical" href="https://designsku.github.io/architectural-design-patterns-in-java/">
+<link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+<link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com">
+<link rel="preconnect" href="https://code.jquery.com">
+<link rel="dns-prefetch" href="https://code.jquery.com">
+<link rel="preconnect" href="https://i.pinimg.com">
+<link rel="dns-prefetch" href="https://i.pinimg.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://designsku.github.io/assets/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+<link rel="stylesheet" href="https://designsku.github.io/assets/css/main.css">
+<link rel="stylesheet" href="https://designsku.github.io/assets/css/theme.css">
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "post",
+    "name": "77 Popular Architectural design patterns in java Trend in 2021",
+    "headline": "77 Popular Architectural design patterns in java Trend in 2021",
+    "alternativeHeadline": "",
+    "description": "This textbook presents 42 design patterns including 23 GoF patterns. Includes lots of examples with full source code. Architectural design patterns in java.",
+    "inLanguage": "en-us",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/designsku.github.io\/architectural-design-patterns-in-java\/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Paul"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Paul"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Paul"
+    },
+    "copyrightHolder" : "Creative Design Ideas",
+    "copyrightYear" : "2021",
+    "dateCreated": "2021-10-02T08:49:46.00Z",
+    "datePublished": "2021-10-02T08:49:46.00Z",
+    "dateModified": "2021-10-02T08:49:46.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "Creative Design Ideas",
+        "url": "https://designsku.github.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/designsku.github.io\/logo.png",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "image": "https://designsku.github.io/logo.png",
+    "url" : "https:\/\/designsku.github.io\/architectural-design-patterns-in-java\/",
+    "wordCount" : "1126",
+    "genre" : [ "interior design" ],
+    "keywords" : [ "Architectural" , "design" , "patterns" , "in" , "java" ]
+}
+</script>
+
+</head>
+  <body>    
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="https://designsku.github.io/"><span style="text-transform: capitalize;font-weight: bold;">Creative Design Ideas</strong></a><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               
+               <li class="nav-item"><a class="nav-link" href="https://designsku.github.io/contact/">Contact</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://designsku.github.io/dmca/">Dmca</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://designsku.github.io/privacy-policy/">Privacy Policy</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://designsku.github.io/about/">About</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://designsku.github.io/categories/creative-design/" title="Creative Design">Creative Design</a></li></ul>
+        </div>
+    </div>
+    </nav>
+    <main role="main" class="site-content">
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+        <div class="h-100 tofront">
+            <div class="row justify-content-between ">
+                <div class=" col-md-6 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+                    <p class="text-uppercase font-weight-bold"><span class="catlist"><a class="sscroll text-danger" href="https://designsku.github.io/categories/creative-design"/>Creative Design</a> . </span></p>
+                    <h1 class="display-4 mb-4 article-headline">77 Popular Architectural design patterns in java Trend in 2021</h1>
+                    <div class="d-flex align-items-center">
+                        <small class="ml-3">Written by Paul <span class="text-muted d-block mt-1">Oct 02, 2021 · <span class="reading-time">6 min read</span></span></small>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-0 align-self-center">
+                    <img class="rounded" src="https://i.pinimg.com/736x/ea/92/c5/ea92c5ab1bf46a200ad6698e3695d160--design-patterns-java.jpg" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" alt="77 Popular Architectural design patterns in java Trend in 2021"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-lg pt-4 pb-4">
+    <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-8">
+            <article class="article-post">
+            <p>This textbook presents 42 design patterns including 23 GoF patterns. Includes lots of examples with full source code. Architectural design patterns in java.</p>
+<!-- Head tag Code -->
+<p><strong>Architectural Design Patterns In Java</strong>, Software Architecture SOLID Design Patterns in Java. Controller links the view to the model and directs application flow. This pattern is the de facto standard for most Java EE applications and therefore is widely known by most architects designers and devel opers.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/51/fb/c4/51fbc4f9c49c8ca2b2f67ac29741973d.jpg" alt="Java Ee Metadata Mapping Design Pattern Pattern Design Map Design Design" title="Java Ee Metadata Mapping Design Pattern Pattern Design Map Design Design" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Java Ee Metadata Mapping Design Pattern Pattern Design Map Design Design From pinterest.com</p>
+<p>They are mostly used for creating a class structure. Discover some of the most useful important and common design patterns in Java. Design patterns represent the best practices used by experienced object-oriented software developers. The Model-View-Controller MVC is a well-known design pattern in the web development field.</p>
+<h3 id="it-is-way-to-organize-our-code">It is way to organize our code.</h3><p>Java Architecture explains each and every step of how a program is compiled and executed. The layered architecture pattern closely matches the tradi. 46 2171 ratings 13755 students. A guide to Create Smart Reusable Softwares with SOLID Principles and Design Patterns. Implementing a plugin architecture plugin system pluggable framework in Angular 2 4 5 6. The pattern allows you to produce different types and representations of an object using the same construction code.</p>
+<p><strong>Read another article</strong>:<br>
+<span class="navi text-left"><a class="badge badge-success" href="/aesthetic-cup-design/">Aesthetic cup design</a></span>
+<span class="navi text-left"><a class="badge badge-primary" href="/aerobatic-wing-design/">Aerobatic wing design</a></span>
+<span class="navi text-left"><a class="badge badge-success" href="/aelios-design-hotel-chania/">Aelios design hotel chania</a></span>
+<span class="navi text-left"><a class="badge badge-secondary" href="/aesop-taxonomy-of-design/">Aesop taxonomy of design</a></span>
+<span class="navi text-left"><a class="badge badge-info" href="/affordable-housing-design-ideas/">Affordable housing design ideas</a></span></p>
+<div class="d-block p-4">
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : '11c10afabb81ba52c0569a7643ad5c41',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.variousformatscontent.com/11c10afabb81ba52c0569a7643ad5c41/invoke.js"></scr' + 'ipt>');
+		</script>
+	</center>
+</div>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/05/c6/8b/05c68bcf1bcba11ed3d03ef46512bdb2.jpg" alt="Java Ee Web Presentation Patterns Design Pattern Java Software Design Patterns Enterprise Application" title="Java Ee Web Presentation Patterns Design Pattern Java Software Design Patterns Enterprise Application" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>View is the visual representation of data in model. Includes lots of examples with full source code. Java Architecture explains each and every step of how a program is compiled and executed. While architectural patterns are seen as commonality at higher level than design patterns. Java Ee Web Presentation Patterns Design Pattern Java Software Design Patterns Enterprise Application.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/79/ac/33/79ac331adc47053b80ac4ed091f7e727.png" alt="Design Patterns For Microservices Design Pattern Java Software Architecture Diagram Pattern Design" title="Design Patterns For Microservices Design Pattern Java Software Architecture Diagram Pattern Design" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: ar.pinterest.com</p>
+<p>Software Architecture SOLID Design Patterns in Java. Model represents applications data and business logic. A design pattern represents the re-usable form of a solution. Implementing a plugin architecture plugin system pluggable framework in Angular 2 4 5 6. Design Patterns For Microservices Design Pattern Java Software Architecture Diagram Pattern Design.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/09/c0/b9/09c0b95486792fa4bba482998c09d17c.jpg" alt="Pin On Java Servlet Design Pattern" title="Pin On Java Servlet Design Pattern" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>He then goes over some of the most important architectural patterns used by the platform including Filter model-view-controller MVC Front Controller and Interceptor. The MVC pattern needs all these components to be separated as different objects. Java design patterns tutorial with examples. MVC Architecture in Java. Pin On Java Servlet Design Pattern.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/ed/ae/9f/edae9f9e2b45ca7f5b88a51c8b9f29a2.jpg" alt="Java Ee Repository Design Pattern" title="Java Ee Repository Design Pattern" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>The most common architecture pattern is the layered architecture pattern otherwise known as the n-tier architecture pattern. They are mostly used for creating a class structure. Furthermore a pattern might be able to be used both as an Architectural Pattern or a Design Pattern again depending on the scope we use it in in a specific project. A guide to Create Smart Reusable Softwares with SOLID Principles and Design Patterns. Java Ee Repository Design Pattern.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/600x315/67/c8/37/67c837a85bf1e102ec37e2152c690623.jpg" alt="Java Ee Composite Design Pattern Playlist Pattern Design Design Pattern" title="Java Ee Composite Design Pattern Playlist Pattern Design Design Pattern" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>View is the visual representation of data in model. View is the visual representation of data in model. Adapter Bridge Composite Decorator Facade Flyweight Proxy. Gang of Four Creational. Java Ee Composite Design Pattern Playlist Pattern Design Design Pattern.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/736x/53/1d/75/531d752ae9f094d00e288411c87a33a6--design-patterns-java.jpg" alt="Java Ee Plugin Design Pattern Pattern Design Design Pattern" title="Java Ee Plugin Design Pattern Pattern Design Design Pattern" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: in.pinterest.com</p>
+<p>Java Architecture explains each and every step of how a program is compiled and executed. Implementing a plugin architecture plugin system pluggable framework in Angular 2 4 5 6. A design pattern represents the re-usable form of a solution. They may be used separately or together when building applications. Java Ee Plugin Design Pattern Pattern Design Design Pattern.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/85/dc/73/85dc73b71f7e1998aa5e1f9feac705a8.png" alt="Facade Design Pattern In Java Facade Design Pattern Design Pattern Java Design Patterns In Java" title="Facade Design Pattern In Java Facade Design Pattern Design Pattern Java Design Patterns In Java" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Architectural Style Architectural Principles. Software Architecture SOLID Design Patterns in Java. How are patterns obtained. The Model-View-Controller MVC is a well-known design pattern in the web development field. Facade Design Pattern In Java Facade Design Pattern Design Pattern Java Design Patterns In Java.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/51/fb/c4/51fbc4f9c49c8ca2b2f67ac29741973d.jpg" alt="Java Ee Metadata Mapping Design Pattern Pattern Design Map Design Design" title="Java Ee Metadata Mapping Design Pattern Pattern Design Map Design Design" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Factory pattern Abstract Factory pattern Singleton pattern Builder pattern and prototype pattern are examples of creational design patterns. Discover some of the most useful important and common design patterns in Java. Structural patterns are concerned with composition or the organization of classes and objects how classes inherit from each other and how they are composed from other classes. Architectural patterns are high-level strategies that concerns large-scale components the global properties and mechanisms of a system. Java Ee Metadata Mapping Design Pattern Pattern Design Map Design Design.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/474x/62/0d/b6/620db6a7a4c09696fde124a712a17dca.jpg" alt="Software Architecture Patterns Ppt Architectural Styles And In Engineering Design Java Pattern Pdf How Can Architectural Pattern Grid Architecture Architecture" title="Software Architecture Patterns Ppt Architectural Styles And In Engineering Design Java Pattern Pdf How Can Architectural Pattern Grid Architecture Architecture" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>And finally abstraction to distill the commonality. The following Structural patterns are described by GoF Total 7. A design pattern represents the re-usable form of a solution. Java Architecture is a collection of components ie JVM JRE and JDK. Software Architecture Patterns Ppt Architectural Styles And In Engineering Design Java Pattern Pdf How Can Architectural Pattern Grid Architecture Architecture.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/736x/f6/3b/d6/f63bd609568dbd58a30c3cf2b5f3522a.jpg" alt="Java Design Patterns Pdf Pattern Design Gof Design Patterns Programming Design Patterns" title="Java Design Patterns Pdf Pattern Design Gof Design Patterns Programming Design Patterns" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: ar.pinterest.com</p>
+<p>These solutions were obtained by trial and error by numerous software developers over quite a substantial period of time. 46 out of 5. How are patterns obtained. It provides in-depth examples in Java and guides students by detailing when why and how to use specific patterns. Java Design Patterns Pdf Pattern Design Gof Design Patterns Programming Design Patterns.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/2c/72/1d/2c721da2b0b136b01acfbfc6ca2d43c4.jpg" alt="Design Patterns Pattern Design Design Pattern Java Software Design Patterns" title="Design Patterns Pattern Design Design Pattern Java Software Design Patterns" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>It defines all the processes involved in creating a Java program. It specifies that a program or application shall consist of data model presentation information and control information. Browse other questions tagged java design-patterns plugins frameworks plugin-architecture or ask your own question. They are mostly used for creating a class structure. Design Patterns Pattern Design Design Pattern Java Software Design Patterns.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/736x/b4/d4/38/b4d438876d41586e2a3d7ca8503702e3--facade-design-pattern-design-patterns.jpg" alt="Java Ee Remote Facade Design Pattern Facade Design Pattern Facade Design Pattern Design" title="Java Ee Remote Facade Design Pattern Facade Design Pattern Facade Design Pattern Design" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>A design pattern represents the re-usable form of a solution. Java Design Patterns and Architecture. 46 2171 ratings 13755 students. Gang of Four Creational. Java Ee Remote Facade Design Pattern Facade Design Pattern Facade Design Pattern Design.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/564x/24/45/e1/2445e174f0c9198ede64b393f21499b4.jpg" alt="Mvc Design Pattern Journaldev Pattern Design Composition Pattern Design" title="Mvc Design Pattern Journaldev Pattern Design Composition Pattern Design" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Architectural Style Architectural Principles. They may be used separately or together when building applications. A design pattern represents the re-usable form of a solution. The Model-View-Controller MVC is a well-known design pattern in the web development field. Mvc Design Pattern Journaldev Pattern Design Composition Pattern Design.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/7a/9f/2f/7a9f2fe03f59312938ce8e61d1589805.jpg" alt="Java Ee Command Design Pattern Real Time Example Hotel Pattern Design Software Design Patterns Design Pattern Java" title="Java Ee Command Design Pattern Real Time Example Hotel Pattern Design Software Design Patterns Design Pattern Java" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: in.pinterest.com</p>
+<p>It provides in-depth examples in Java and guides students by detailing when why and how to use specific patterns. This pattern is the de facto standard for most Java EE applications and therefore is widely known by most architects designers and devel opers. The following Structural patterns are described by GoF Total 7. Architectural patterns are high-level strategies that concerns large-scale components the global properties and mechanisms of a system. Java Ee Command Design Pattern Real Time Example Hotel Pattern Design Software Design Patterns Design Pattern Java.</p>
+<p><img loading="lazy" width="100%" src="https://designsku.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/736x/ea/92/c5/ea92c5ab1bf46a200ad6698e3695d160--design-patterns-java.jpg" alt="Java Ee Gateway Design Pattern Pattern Design Design Pattern Java Software Design Patterns" title="Java Ee Gateway Design Pattern Pattern Design Design Pattern Java Software Design Patterns" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>The Overflow Blog. A design pattern represents the re-usable form of a solution. Structural patterns are concerned with composition or the organization of classes and objects how classes inherit from each other and how they are composed from other classes. Software Architecture SOLID Design Patterns in Java. Java Ee Gateway Design Pattern Pattern Design Design Pattern Java Software Design Patterns.</p>
+
+
+            </article>
+            <div class="row"><div class="posts-image" style="width:50%;"><a style="margin:5px;" href="/beautiful-gift-box-design/">&laquo;&laquo;&nbsp;67 Popular Beautiful gift box design Wallpaper Collection</a></div>
+    <div class="posts-image" style="width:50%"><a style="margin:5px;" href="/back-tiger-tattoo-designs/">80 Best Back tiger tattoo designs Picture Ideas&nbsp;&raquo;&raquo;</a></div></div>
+            
+            <div class="mb-4">
+                <span class="taglist"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="container pt-4 pb-4">
+    
+    <h5 class="font-weight-bold spanborder"><span>Related Article</span></h5>
+    <div class="row">
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/ux-designer-utbildning-distans/"><img height="80" src="/img/placeholder.svg" data-src="https://ik.imagekit.io/2s2k658pvn8/tr:w-610,h-394/2020/02/berghs_digital_design_strategy-scaled.jpg?ik-sdk-version=php-2.0.0" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/ux-designer-utbildning-distans/">47 Nice Ux designer utbildning distans Trend in 2021</a>
+                        </h2>
+                        <small class="text-muted">Dec 04 . 5 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/bismarck-web-design/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/72/4f/e4/724fe4a6a89cdbaccf6b5ff962888781.jpg" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/bismarck-web-design/">38  Bismarck web design Photo Ideas</a>
+                        </h2>
+                        <small class="text-muted">Sep 28 . 7 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/a49-interior-design/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/49/b1/5d/49b15d4b2adee346445eb700c3595d3e.gif" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/a49-interior-design/">91 Epic A49 interior design Wallpaper Collection</a>
+                        </h2>
+                        <small class="text-muted">Nov 05 . 6 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/black-rose-skull-tattoo-designs/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/736x/59/d0/fd/59d0fde111ead4d34ec20fadd8be6843.jpg" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/black-rose-skull-tattoo-designs/">50 Creative Black rose skull tattoo designs Photo Ideas</a>
+                        </h2>
+                        <small class="text-muted">Sep 22 . 7 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/average-price-for-brochure-design/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/ce/3d/6b/ce3d6b1c049824803f205bb320bd7038.jpg" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/average-price-for-brochure-design/">71 Popular Average price for brochure design Picture Ideas</a>
+                        </h2>
+                        <small class="text-muted">May 26 . 6 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/antes-design/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/736x/bd/ee/9f/bdee9f7362b85b402d4f23311b84f51e.jpg" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/antes-design/">70 Epic Antes design Trend in 2021</a>
+                        </h2>
+                        <small class="text-muted">Jun 05 . 7 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/website-design-hertfordshire/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/bb/60/f6/bb60f6ec00ac2ced3d8d28968cf3f7d6.png" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/website-design-hertfordshire/">98  Website design hertfordshire Trend in 2021</a>
+                        </h2>
+                        <small class="text-muted">Sep 24 . 6 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/design-thinking-mvp/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/736x/de/29/aa/de29aa79b21db014a97ab50111c8bf95.jpg" onerror="this.onerror=null;this.src='https:\/\/designsku.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/design-thinking-mvp/">73 Best Design thinking mvp Photos</a>
+                        </h2>
+                        <small class="text-muted">Jun 10 . 7 min read</small>
+                    </div>
+                </div>
+        </div>
+</div>
+</div>
+</div>
+    </main>    <script async="async" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script async="async" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script async="async" src="https://designsku.github.io/assets/js/theme.js"></script>
+    <script>function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;</script>
+    
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div><span style="text-transform: capitalize;"><a href="https://designsku.github.io/">Creative Design Ideas</a> All Right Reserved &copy; 2021.</span></div>
+            
+        </div>
+        </div>
+    </footer>
+
+<script type="text/javascript">
+var sc_project=12684558; 
+var sc_invisible=1; 
+var sc_security="fa6216c8"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12684558/0/fa6216c8/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
+  </body>
+</html>
